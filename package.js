@@ -1,7 +1,7 @@
 Package.describe({
   name: 'sgi:famous-angular',
   summary: 'Famous-Angular packaged for use with Meteor apps',
-  version: '0.5.0',
+  version: '0.5.1-0.1',
   git: 'git@github.com:sginc/famous-angular.git'
 });
 
