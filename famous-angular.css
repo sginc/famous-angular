@@ -5,11 +5,6 @@ body {
 
 fa-app, .fa-app {
     display: block;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     margin: 0px;
     padding: 0px;
     -webkit-transform-style: preserve-3d;
