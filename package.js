@@ -1,17 +1,14 @@
 Package.describe({
   name: 'sgi:famous-angular',
-  summary: ' /* Fill me in! */ ',
-  version: '1.0.0',
-  git: ' /* Fill me in! */ '
+  summary: 'Famous-Angular packaged for use with Meteor apps',
+  version: '0.5.0',
+  git: 'git@github.com:sginc/famous-angular.git'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.addFiles('sgi:famous-angular.js');
-});
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('sgi:famous-angular');
-  api.addFiles('sgi:famous-angular-tests.js');
+  api.use('urigo:angular', 'client');
+  api.use('mjn:famous', 'client');
+  api.addFiles('famous-angular.js', 'client');
+  api.addFiles('famous-angular.css', 'client');
 });
